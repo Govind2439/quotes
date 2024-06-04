@@ -11,7 +11,7 @@ func getQuote(w http.ResponseWriter, r *http.Request) {
 
 	req, _ := http.NewRequest("GET", url, nil)
 
-	req.Header.Add("x-rapidapi-key", "ee661ee060mshd9ae3e417ebd7f1p1089c5jsn2fa1b576c16f")
+	req.Header.Add("x-rapidapi-key", "API_KEY")
 	req.Header.Add("x-rapidapi-host", "quotes15.p.rapidapi.com")
 
 	res, err := http.DefaultClient.Do(req)
