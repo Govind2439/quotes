@@ -14,3 +14,6 @@
 # HTML and CSS Files:
 
     Open the index.html file in a web browser.
+
+
+Note: replace API_KEY with original value
